@@ -1,0 +1,57 @@
+<nav class='navbar navbar-expand-lg navbar-light bg-light'>
+	<img src="assets/images/me-logo.png" with="60" height="60" class="d-inline-block align-top px-2" alt="">
+    <a class='navbar-brand' href="#">{{pageTitle}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  	</button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">	      
+	      <li class="nav-item">
+	        <a class="nav-link" routerLinkActive='active' [routerLink]="['/about']">Quem somos</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" routerLinkActive='active' [routerLink]="['/places']">Onde atuamos</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navMissions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Missões
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navMissions">
+	          <a class="dropdown-item" href="#">Boa Nova</a>
+	          <a class="dropdown-item" href="#">Festa da Misericórdia</a>
+	          <a class="dropdown-item" href="#">Enfermos(as)</a>
+	          <a class="dropdown-item" href="#">Samaritana(o)</a>
+	          <a class="dropdown-item" href="#">Encarcerados(as)</a>
+	          <a class="dropdown-item" href="#">Fronteira</a>
+	        </div>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navProjects" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Projetos
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navProjects">
+	          <a class="dropdown-item" href="#">Despertai</a>
+	          <a class="dropdown-item" href="#">Levante Pleno</a>
+	          <a class="dropdown-item" href="#">Levante Kids</a>
+	          <a class="dropdown-item" href="#">IDE</a>
+	          <a class="dropdown-item" href="#">Ministério Bem</a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" routerLinkActive='active' [routerLink]="['/community']">Comunidade</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="http://loja.metanoia.pro.br">Loja Virtual</a>
+	      </li>
+	      
+	    </ul>
+	</div>
+	    
+    <!-- 
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+     -->
+</nav>
