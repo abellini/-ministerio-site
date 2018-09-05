@@ -9,6 +9,8 @@ import { WelcomeComponent } from './home/welcome.component';
 import { AboutComponent } from './pages/about/about.component';
 import { PlacesComponent } from './pages/places/places.component';
 import { CommunityComponent } from './pages/community/community.component';
+import { VoelaboraComponent } from './pages/voelabora/voelabora.component';
+import { MinisteriobemComponent } from './pages/ministeriobem/ministeriobem.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CommunityComponent } from './pages/community/community.component';
     WelcomeComponent,
     AboutComponent,
     PlacesComponent,
-    CommunityComponent
+    CommunityComponent,
+    VoelaboraComponent,
+    MinisteriobemComponent
   ],
   imports: [
     BrowserModule,
@@ -27,6 +31,8 @@ import { CommunityComponent } from './pages/community/community.component';
       { path: 'about', component: AboutComponent },
       { path: 'places', component: PlacesComponent },
       { path: 'community', component: CommunityComponent },
+      { path: 'voelabora', component: VoelaboraComponent },
+      { path: 'ministeriobem', component: MinisteriobemComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
     ]),
