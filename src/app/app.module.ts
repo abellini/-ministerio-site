@@ -11,6 +11,10 @@ import { PlacesComponent } from './pages/places/places.component';
 import { CommunityComponent } from './pages/community/community.component';
 import { VoelaboraComponent } from './pages/voelabora/voelabora.component';
 import { MinisteriobemComponent } from './pages/ministeriobem/ministeriobem.component';
+import { WakeupComponent } from './pages/wakeup/wakeup.component';
+import { LevanteplenoComponent } from './pages/levantepleno/levantepleno.component';
+import { LevantekidsComponent } from './pages/levantekids/levantekids.component';
+import { IdeComponent } from './pages/ide/ide.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { MinisteriobemComponent } from './pages/ministeriobem/ministeriobem.comp
     PlacesComponent,
     CommunityComponent,
     VoelaboraComponent,
-    MinisteriobemComponent
+    MinisteriobemComponent,
+    WakeupComponent,
+    LevanteplenoComponent,
+    LevantekidsComponent,
+    IdeComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +41,10 @@ import { MinisteriobemComponent } from './pages/ministeriobem/ministeriobem.comp
       { path: 'community', component: CommunityComponent },
       { path: 'voelabora', component: VoelaboraComponent },
       { path: 'ministeriobem', component: MinisteriobemComponent },
+      { path: 'wakeup', component: WakeupComponent },
+      { path: 'levantepleno', component: LevanteplenoComponent },
+      { path: 'levantekids', component: LevantekidsComponent },
+      { path: 'ide', component: IdeComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
     ]),
