@@ -15,6 +15,7 @@ import { WakeupComponent } from './pages/wakeup/wakeup.component';
 import { LevanteplenoComponent } from './pages/levantepleno/levantepleno.component';
 import { LevantekidsComponent } from './pages/levantekids/levantekids.component';
 import { IdeComponent } from './pages/ide/ide.component';
+import { VoeoraComponent } from './pages/voeora/voeora.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { IdeComponent } from './pages/ide/ide.component';
     WakeupComponent,
     LevanteplenoComponent,
     LevantekidsComponent,
-    IdeComponent
+    IdeComponent,
+    VoeoraComponent
   ],
   imports: [
     BrowserModule,
@@ -40,6 +42,7 @@ import { IdeComponent } from './pages/ide/ide.component';
       { path: 'places', component: PlacesComponent },
       { path: 'community', component: CommunityComponent },
       { path: 'voelabora', component: VoelaboraComponent },
+      { path: 'voeora', component: VoeoraComponent },
       { path: 'ministeriobem', component: MinisteriobemComponent },
       { path: 'wakeup', component: WakeupComponent },
       { path: 'levantepleno', component: LevanteplenoComponent },
