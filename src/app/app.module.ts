@@ -16,6 +16,7 @@ import { LevanteplenoComponent } from './pages/levantepleno/levantepleno.compone
 import { LevantekidsComponent } from './pages/levantekids/levantekids.component';
 import { IdeComponent } from './pages/ide/ide.component';
 import { VoeoraComponent } from './pages/voeora/voeora.component';
+import { TestimonyComponent } from './pages/testimony/testimony.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { VoeoraComponent } from './pages/voeora/voeora.component';
     LevanteplenoComponent,
     LevantekidsComponent,
     IdeComponent,
-    VoeoraComponent
+    VoeoraComponent,
+    TestimonyComponent
   ],
   imports: [
     BrowserModule,
@@ -48,6 +50,7 @@ import { VoeoraComponent } from './pages/voeora/voeora.component';
       { path: 'levantepleno', component: LevanteplenoComponent },
       { path: 'levantekids', component: LevantekidsComponent },
       { path: 'ide', component: IdeComponent },
+      { path: 'testimony', component: TestimonyComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
     ]),
