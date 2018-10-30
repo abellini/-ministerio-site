@@ -20,18 +20,14 @@ import { Component } from '@angular/core';
             <i id="social-tw" class="fa fa-twitter"></i>
         </a>
         &nbsp;
-        <a href="#" class="icoRss" title="Rss" class="btn btn-social-icon btn-rss">
-            <i id="social-rs" class="fa fa-rss"></i>
-        </a>
-        &nbsp;
-        <a href="mailto:bootsnipp@gmail.com" title="Email" class="btn btn-social-icon btn-email">
+        <a href="mailto:contato@ministerioeucaristico.com.br" title="Email" class="btn btn-social-icon btn-email">
             <i id="social-em" class="fa fa-envelope"></i>
         </a>
         <!--
-        <a href="#" class="icoRss" title="Rss">
-            <i id="social-rs" class="fa fa-rss fa-2x social"></i>
-        </a>
-        
+        &nbsp;
+        <a href="#" class="icoRss" title="Rss" class="btn btn-social-icon btn-rss">
+            <i id="social-rs" class="fa fa-rss"></i>
+        </a>        
         <a href="https://www.facebook.com/bootsnipp" title="Facebook">
             <i id="social-fb" class="fa fa-facebook fa-2x social"></i>
         </a>
