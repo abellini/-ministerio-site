@@ -17,6 +17,9 @@ import { LevantekidsComponent } from './pages/levantekids/levantekids.component'
 import { IdeComponent } from './pages/ide/ide.component';
 import { VoeoraComponent } from './pages/voeora/voeora.component';
 import { TestimonyComponent } from './pages/testimony/testimony.component';
+import { VigilsComponent } from './pages/vigils/vigils.component';
+import { BookswordComponent } from './pages/booksword/booksword.component';
+import { ChristmasprayerComponent } from './pages/christmasprayer/christmasprayer.component';
 
 @NgModule({
   declarations: [
@@ -34,11 +37,17 @@ import { TestimonyComponent } from './pages/testimony/testimony.component';
     LevantekidsComponent,
     IdeComponent,
     VoeoraComponent,
-    TestimonyComponent
+    TestimonyComponent,
+    VigilsComponent,
+    BookswordComponent,
+    ChristmasprayerComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
+      { path: 'vigils', component: VigilsComponent },                          
+      { path: 'christmas', component: ChristmasprayerComponent },
+      { path: 'booksword', component: BookswordComponent },
       { path: 'welcome', component: WelcomeComponent },
       { path: 'about', component: AboutComponent },
       { path: 'places', component: PlacesComponent },
