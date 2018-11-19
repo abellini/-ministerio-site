@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EmbedVideoService } from 'ngx-embed-video';
 
 @Component({
   selector: 'me-levantekids',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./levantekids.component.css']
 })
 export class LevantekidsComponent implements OnInit {
+    
+    safeURL: any;
+    youtubeUrl = "";
 
-  constructor() { }
+    constructor(private _embedService: EmbedVideoService){
+        //this.safeURL = this._embedService.embed(this.youtubeUrl);
+    }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
 }

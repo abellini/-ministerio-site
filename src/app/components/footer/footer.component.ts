@@ -5,20 +5,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.scss'],
   template: `
     <nav class="navbar fixed-bottom navbar-light bg-light">
-      <span class="navbar-brand">Desenvolvido por <b>Ministério Eucarístico</b> 2018</span>
+      <span class="navbar-brand"><small class="text-muted"> Desenvolvido por <b>Ministério Eucarístico</b> 2018 </small> </span>
       <div class="text-center center-block">
         
-        <a href="http://facebook.com" class="btn btn-social-icon btn-facebook">
+        <a href="https://facebook.com/VoluntariadoEucaristico" class="btn btn-social-icon btn-facebook">
             <i id="social-fa" class="fa fa-facebook"></i>
         </a>
         &nbsp;    
-        <a href="#" class="btn btn-social-icon btn-instagram">
+        <a href="https://instagram.com/voe_oficial?utm_source=ig_profile_share&igshid=4wdzglrraf1e" class="btn btn-social-icon btn-instagram">
             <i id="social-in" class="fa fa-instagram"></i>
         </a>
+        <!--
         &nbsp;
         <a href="https://twitter.com/bootsnipp" class="btn btn-social-icon btn-twitter">
             <i id="social-tw" class="fa fa-twitter"></i>
         </a>
+        -->
         &nbsp;
         <a href="mailto:contato@ministerioeucaristico.com.br" title="Email" class="btn btn-social-icon btn-email">
             <i id="social-em" class="fa fa-envelope"></i>
