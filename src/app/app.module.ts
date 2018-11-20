@@ -22,6 +22,12 @@ import { TestimonyComponent } from './pages/testimony/testimony.component';
 import { VigilsComponent } from './pages/vigils/vigils.component';
 import { BookswordComponent } from './pages/booksword/booksword.component';
 import { ChristmasprayerComponent } from './pages/christmasprayer/christmasprayer.component';
+import { ReflectiondailyComponent } from './pages/reflectiondaily/reflectiondaily.component';
+import { WordofscienceComponent } from './pages/wordofscience/wordofscience.component';
+import { PrayrosaryComponent } from './pages/prayrosary/prayrosary.component';
+import { AutoinfotadeuComponent } from './components/autoinfotadeu/autoinfotadeu.component';
+import { AutoinfoanamariaComponent } from './components/autoinfoanamaria/autoinfoanamaria.component';
+import { AutoinfoanapaulaComponent } from './components/autoinfoanapaula/autoinfoanapaula.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +48,13 @@ import { ChristmasprayerComponent } from './pages/christmasprayer/christmaspraye
     TestimonyComponent,
     VigilsComponent,
     BookswordComponent,
-    ChristmasprayerComponent
+    ChristmasprayerComponent,
+    ReflectiondailyComponent,
+    WordofscienceComponent,
+    PrayrosaryComponent,
+    AutoinfotadeuComponent,
+    AutoinfoanamariaComponent,
+    AutoinfoanapaulaComponent
   ],
   imports: [
     BrowserModule,
@@ -64,6 +76,9 @@ import { ChristmasprayerComponent } from './pages/christmasprayer/christmaspraye
       { path: 'levantekids', component: LevantekidsComponent },
       { path: 'ide', component: IdeComponent },
       { path: 'testimony', component: TestimonyComponent },
+      { path: 'prayrosary', component: PrayrosaryComponent },
+      { path: 'wordofscience', component: WordofscienceComponent },
+      { path: 'reflectiondaily', component: ReflectiondailyComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
     ]),
