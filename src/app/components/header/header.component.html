@@ -8,11 +8,15 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">	      
 	      <li class="nav-item">
-	        <a class="nav-link" routerLinkActive='active' [routerLink]="['/about']">Quem somos</a>
+	        <a class="nav-link" routerLinkActive='active' [routerLink]="['/about']">{{howare}}</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" routerLinkActive='active' [routerLink]="['/wakeup']">Despertai</a>
+	        <a class="nav-link" routerLinkActive='active' [routerLink]="['/wakeup']">{{wakeup}}</a>
 	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" routerLinkActive='active' [routerLink]="['/voelabora']">{{voe}}</a>
+	      </li>
+	      <!-- 
 	      <li class="nav-item dropdown">
 	        <a class="nav-link dropdown-toggle" href="#" id="navMissions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	          Missões
@@ -22,27 +26,28 @@
 	          <a class="dropdown-item" routerLinkActive='active' [routerLink]="['/voeora']">VOE-Ora</a>
 	        </div>
 	      </li>
+	       -->
 	      <li class="nav-item dropdown">
 	        <a class="nav-link dropdown-toggle" href="#" id="navProjects" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Projetos
+	          Levantes
 	        </a>
 	        <div class="dropdown-menu" aria-labelledby="navProjects">
-	          <a class="dropdown-item" routerLinkActive='active' [routerLink]="['/levantepleno']">Levante Pleno</a>
-	          <a class="dropdown-item" routerLinkActive='active' [routerLink]="['/levantekids']">Levante Kids</a>
-	          <a class="dropdown-item" routerLinkActive='active' [routerLink]="['/ide']">IDE</a>
-	          <a class="dropdown-item" routerLinkActive='active' [routerLink]="['/ministeriobem']">Ministério Bem</a> 
+	          <a class="dropdown-item" routerLinkActive='active' [routerLink]="['/levantepleno']">{{pleno}}</a>
+	          <a class="dropdown-item" routerLinkActive='active' [routerLink]="['/levantekids']">{{kids}}</a>
+	          <a class="dropdown-item" routerLinkActive='active' [routerLink]="['/ide']">{{ide}}</a>
+	          <!-- <a class="dropdown-item" routerLinkActive='active' [routerLink]="['/ministeriobem']">Ministério Bem</a> --> 
 	        </div>
 	      </li>
-	      <!-- 
+	      
 	      <li class="nav-item">
-	        <a class="nav-link" routerLinkActive='active' [routerLink]="['/community']">Comunidade</a>
+	        <a class="nav-link" routerLinkActive='active' [routerLink]="['/community']">{{comunite}}</a>
 	      </li>
-	       -->
+	      
 	      <li class="nav-item">
-	        <a class="nav-link" routerLinkActive='active' [routerLink]="['/testimony']">Depoimentos</a>
+	        <a class="nav-link" routerLinkActive='active' [routerLink]="['/testimony']">{{depo}}</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="http://loja.metanoia.pro.br">Loja Virtual</a>
+	        <a class="nav-link" href="http://loja.metanoia.pro.br">{{loja}}</a>
 	      </li>
 	      
 	    </ul>
