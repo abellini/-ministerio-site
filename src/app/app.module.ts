@@ -28,6 +28,7 @@ import { PrayrosaryComponent } from './pages/prayrosary/prayrosary.component';
 import { AutoinfotadeuComponent } from './components/autoinfotadeu/autoinfotadeu.component';
 import { AutoinfoanamariaComponent } from './components/autoinfoanamaria/autoinfoanamaria.component';
 import { AutoinfoanapaulaComponent } from './components/autoinfoanapaula/autoinfoanapaula.component';
+import { MissaonatalComponent } from './pages/missaonatal/missaonatal.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { AutoinfoanapaulaComponent } from './components/autoinfoanapaula/autoinf
     PrayrosaryComponent,
     AutoinfotadeuComponent,
     AutoinfoanamariaComponent,
-    AutoinfoanapaulaComponent
+    AutoinfoanapaulaComponent,
+    MissaonatalComponent
   ],
   imports: [
     BrowserModule,
@@ -79,6 +81,7 @@ import { AutoinfoanapaulaComponent } from './components/autoinfoanapaula/autoinf
       { path: 'prayrosary', component: PrayrosaryComponent },
       { path: 'wordofscience', component: WordofscienceComponent },
       { path: 'reflectiondaily', component: ReflectiondailyComponent },
+      { path: 'missaonatal', component: MissaonatalComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
     ]),
