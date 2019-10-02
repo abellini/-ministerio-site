@@ -29,6 +29,7 @@ import { AutoinfotadeuComponent } from './components/autoinfotadeu/autoinfotadeu
 import { AutoinfoanamariaComponent } from './components/autoinfoanamaria/autoinfoanamaria.component';
 import { AutoinfoanapaulaComponent } from './components/autoinfoanapaula/autoinfoanapaula.component';
 import { MissaonatalComponent } from './pages/missaonatal/missaonatal.component';
+import { RefugeesComponent } from './pages/refugees/refugees.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { MissaonatalComponent } from './pages/missaonatal/missaonatal.component'
     AutoinfotadeuComponent,
     AutoinfoanamariaComponent,
     AutoinfoanapaulaComponent,
-    MissaonatalComponent
+    MissaonatalComponent,
+    RefugeesComponent
   ],
   imports: [
     BrowserModule,
@@ -69,19 +71,20 @@ import { MissaonatalComponent } from './pages/missaonatal/missaonatal.component'
       { path: 'welcome', component: WelcomeComponent },
       { path: 'about', component: AboutComponent },
       { path: 'places', component: PlacesComponent },
-      { path: 'community', component: CommunityComponent },
-      { path: 'voelabora', component: VoelaboraComponent },
-      { path: 'voeora', component: VoeoraComponent },
-      { path: 'ministeriobem', component: MinisteriobemComponent },
+      //{ path: 'community', component: CommunityComponent },
+      //{ path: 'voelabora', component: VoelaboraComponent },
+      //{ path: 'voeora', component: VoeoraComponent },
+      //{ path: 'ministeriobem', component: MinisteriobemComponent },
       { path: 'wakeup', component: WakeupComponent },
-      { path: 'levantepleno', component: LevanteplenoComponent },
-      { path: 'levantekids', component: LevantekidsComponent },
-      { path: 'ide', component: IdeComponent },
+      //{ path: 'levantepleno', component: LevanteplenoComponent },
+      //{ path: 'levantekids', component: LevantekidsComponent },
+      //{ path: 'ide', component: IdeComponent },
       { path: 'testimony', component: TestimonyComponent },
       { path: 'prayrosary', component: PrayrosaryComponent },
       { path: 'wordofscience', component: WordofscienceComponent },
       { path: 'reflectiondaily', component: ReflectiondailyComponent },
       { path: 'missaonatal', component: MissaonatalComponent },
+      { path: 'refugees', component: RefugeesComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
     ]),
