@@ -2,13 +2,22 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'me-footer',
-  styleUrls: ['./footer.component.scss'],
+  styleUrls: ['./footer.component.css'],
   template: `
-    <nav class="navbar fixed-bottom navbar-light bg-light">
-      <span class="navbar-brand"><small class="text-muted"> Desenvolvido por <b>Ministério Eucarístico</b> 2019 </small> </span>
+
+    <div class="d-flex bottomArea justify-content-between px-5 py-0">
+		<div class="mr-auto p-2 bottomText">&copy; Ministério Eucarístico, 2020</div>
+		
+		<div class="d-flex flex-column w-5 mt-3">
+  			<a href="mailto:contato@ministerioeucaristico.com.br" title="Email" class="btn btn-social-icon btn-email">
+      		<i id="social-em" class="fa fa-envelope"></i>
+  			</a>
+		</div>
+
+		<!--
       <div class="text-center center-block">
         
-        <!--
+        
         <a href="https://facebook.com/VoluntariadoEucaristico" class="btn btn-social-icon btn-facebook">
             <i id="social-fa" class="fa fa-facebook"></i>
         </a>
@@ -22,12 +31,11 @@ import { Component } from '@angular/core';
         <a href="https://twitter.com/bootsnipp" class="btn btn-social-icon btn-twitter">
             <i id="social-tw" class="fa fa-twitter"></i>
         </a>
-        -->
+        
         &nbsp;
         <a href="mailto:contato@ministerioeucaristico.com.br" title="Email" class="btn btn-social-icon btn-email">
             <i id="social-em" class="fa fa-envelope"></i>
         </a>
-        <!--
         &nbsp;
         <a href="#" class="icoRss" title="Rss" class="btn btn-social-icon btn-rss">
             <i id="social-rs" class="fa fa-rss"></i>
@@ -41,9 +49,10 @@ import { Component } from '@angular/core';
         <a href="mailto:bootsnipp@gmail.com" title="Email">
             <i id="social-em" class="fa fa-envelope fa-2x social"></i>
         </a>
-        -->
       </div>
-    </nav>
+		-->
+		
+    </div>
   `,
 })
 export class FooterComponent {

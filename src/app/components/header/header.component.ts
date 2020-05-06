@@ -3,7 +3,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'me-header',
-  styleUrls: ['./header.component.scss'],
+  styleUrls: ['./header.component.css'],
   templateUrl: './header.component.html',
 })
 export class HeaderComponent implements OnInit {

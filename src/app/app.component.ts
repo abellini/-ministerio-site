@@ -11,9 +11,10 @@ import { Component } from '@angular/core';
       </div>
       
       <!-- footer -->
-      <div class='container'>
-          <me-footer></me-footer>
-      </div>
+		<div class='fixed-bottom'>
+			<me-footer></me-footer>
+		</div>      
+		
       `,
   styleUrls: ['./app.component.css']
 })
